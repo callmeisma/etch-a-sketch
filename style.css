@@ -1,0 +1,26 @@
+body {
+  text-align: center  ;
+}
+
+#gridContainer {
+  margin: auto;
+  display: grid;
+  width: 500px;
+  height: 500px;
+  grid-template-columns: '';
+  grid-template-rows: '';
+  background-color: aliceblue;
+}
+
+.gridItem {
+  border: 1px solid silver;
+}
+
+button, input {
+  margin: 20px 5px;
+}
+
+input {
+  width: 100px;
+  text-align: center;
+}
