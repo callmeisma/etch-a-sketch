@@ -1,26 +1,40 @@
-body {
-  text-align: center  ;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
 }
 
-#gridContainer {
-  margin: auto;
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#grid {
+  margin:auto;
   display: grid;
   width: 500px;
   height: 500px;
   grid-template-columns: '';
   grid-template-rows: '';
-  background-color: aliceblue;
+  background-color: white;
 }
 
 .gridItem {
   border: 1px solid silver;
 }
 
-button, input {
-  margin: 20px 5px;
+input[type='color'] {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
 }
 
-input {
-  width: 100px;
-  text-align: center;
+input[type='color']::-webkit-color-swatch {
+  border: none;
+  border-radius: 50px;
 }
+
